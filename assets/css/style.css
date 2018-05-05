@@ -1,0 +1,75 @@
+body {
+	text-align: center;
+	color: #fff;
+
+}
+button {
+	
+	
+	background-color: rgba(0,0,0,0);
+	border-radius: 30px;
+  	padding: 0.1rem 6rem;
+}
+.container {
+	background-color: rgba(0,0,0,0.5);
+	padding: 30px 0px 30px 0px;
+	border-radius: 30px;
+		
+}
+
+
+/*Navbar*/
+
+.starbucks_navbar {
+	padding-top: 25px;
+	background-color: #f7f7f7;
+	border-top:1px solid #e0e0e0;
+	padding-bottom: 5px;
+}
+
+.navbar_verde {
+	min-height:10px;
+ 	background:#006341;
+ 	position: relative;
+	top: -25px;
+ 	
+}
+.starbucks_navbar img {
+	 position: relative;
+	 top: -20px;
+	 width:50px;
+	 height:50px;
+	 background-size:contain;
+	 background-color:#f7f7f7
+}
+
+.icon-bar {
+	background-color: #006341
+}
+
+/*Seccion 1 Ingreso */
+
+.starbucks_ingreso {
+
+	margin-top: 90px;
+	background-image: url("../images/banner1.jpg");
+	padding: 50px;
+}
+
+
+
+
+/*Seccion 2 Join */
+.starbucks_join {
+	clear: left;
+	background-image: url("../images/stars2.png");
+	margin-top: 10px;
+	padding: 50px;
+}
+
+/*Seccion 3 Explore */
+.starbucks_explore {
+	background-image: url("../images/beans.png");
+	margin-top: 10px;
+	padding: 50px;
+}
