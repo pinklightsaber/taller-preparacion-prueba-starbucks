@@ -1,15 +1,23 @@
 body {
 	text-align: center;
 	color: #fff;
-
+	font-family: 'Open Sans', sans-serif;
 }
 button {
-	
 	
 	background-color: rgba(0,0,0,0);
 	border-radius: 30px;
   	padding: 0.1rem 6rem;
 }
+
+button:hover {
+	
+	background-color: #fff;
+	color:#333;
+	border-radius: 30px;
+  	padding: 0.1rem 6rem;
+}
+
 .container {
 	background-color: rgba(0,0,0,0.5);
 	padding: 30px 0px 30px 0px;
@@ -25,6 +33,9 @@ button {
 	background-color: #f7f7f7;
 	border-top:1px solid #e0e0e0;
 	padding-bottom: 5px;
+}
+.starbucks_navbar a {
+	color: #333;
 }
 
 .navbar_verde {
@@ -47,6 +58,11 @@ button {
 	background-color: #006341
 }
 
+.starbucks_navbar ul li a:hover{
+	background-color: #333;
+	color: #fff;
+
+}
 /*Seccion 1 Ingreso */
 
 .starbucks_ingreso {
@@ -73,3 +89,42 @@ button {
 	margin-top: 10px;
 	padding: 50px;
 }
+
+/*Footer*/
+
+footer.starbucks_footer {
+	background-color: #f7f7f7;
+	padding: 30px 0px 30px 0px;
+}
+.social_media ul li a {
+	color: #333;
+	font-size: 2em;
+	width: 45px;
+	height: 45px; 
+	border-radius: 50%;
+	display: inline-block;
+}
+
+footer.starbucks_footer .social_media ul li a:hover {
+	background-color: #333;
+	color: #fff;
+
+}
+
+footer.starbucks_footer img {
+	height: 30px;
+	width: 30px;
+	margin: 10px;
+}
+.footer_gris {
+	min-height:10px;
+ 	background: #333;
+ 	width: 100%;
+ 	
+}
+
+footer p {
+	color:black;
+	font-size: 0.8em;
+}
+
